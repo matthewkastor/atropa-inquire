@@ -7,20 +7,12 @@ Container for JavaScript functions that test the state of inputs.
 The current published version:
 
 ```
-npm install atropa-inquire
-```
-
-The bleeding edge development version:
-
-```
 npm install git+https://github.com/matthewkastor/atropa-inquire.git#master
 ```
 
 For some packages I simply publish to the `gh-pages` branch since it's easier to
  generate web docs in the repo and push the whole thing. Check the repo
  if you try installing the `master` branch and don't get what you expect.
-
-This package lives at: [https://npmjs.org/package/atropa-inquire](https://npmjs.org/package/atropa-inquire)
 
 Source code available at: [https://github.com/matthewkastor/atropa-inquire/](https://github.com/matthewkastor/atropa-inquire/)
 
