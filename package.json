@@ -1,6 +1,6 @@
 {
   "name": "atropa-inquire",
-  "version": "2013.10.18",
+  "version": "2014.1.1",
   "description": "Container for JavaScript functions that test the state of inputs.",
   "main": "./src/atropa-inquire.js",
   "directories": {
