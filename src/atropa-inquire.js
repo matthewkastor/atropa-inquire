@@ -19,7 +19,6 @@ var atropa = require('atropa-header');
  *  ☭ Hial Atropa!! ☭
  * @version 20120909
  * @namespace Container for functions that test the state of inputs.
- * @see <a href="../../../AtropaToolboxTests.html?spec=atropa.inquire">tests</a>
  */
 atropa.inquire = {};
 /**
