@@ -1,6 +1,6 @@
 {
   "name": "atropa-inquire",
-  "version": "2014.1.2",
+  "version": "2014.2.1",
   "description": "Container for JavaScript functions that test the state of inputs.",
   "main": "./src/atropa-inquire.js",
   "directories": {
@@ -21,7 +21,7 @@
     "lint": "atropa-jslint ./src/atropa-inquire.js",
     "srcFormat": "atropa-jsformatter ./src/atropa-inquire.js ./src/atropa-inquire.js",
     "pretest": "node dev/browserify.js",
-    "buildVsdocs": "jsdoc-toolkit -v -d=./docs/vsdoc/ -t=./dev/vsdoc/ -r -s node_modules/atropa-header/src/ src/"
+    "buildVsdocs": "jsdoc-toolkit -v -d=./docs/vsdoc/ -t=./node_modules/jsdoc-toolkit/templates/vsdoc/ -r -s node_modules/atropa-header/src/ src/"
   },
   "homepage": "https://github.com/matthewkastor/atropa-inquire/",
   "bugs": "https://github.com/matthewkastor/atropa-inquire/issues",
