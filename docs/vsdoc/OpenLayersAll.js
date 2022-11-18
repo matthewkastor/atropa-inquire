@@ -25,10 +25,14 @@
     
 
     window.atropa = {
-        /// <summary></summary>
-        /// <field name="data" type="">Container for gobal data related to the classes and functions.</field>
-        /// <field name="inquire" type="">Container for functions that test the state of inputs.</field>
+        /// <summary>Container for all Glorious classes, functions, etc.</summary>
         /// <returns type="atropa"/>
+      
+        /// <field name="data" type="">Container for gobal data related to the classes and functions.</field>
+        data : {}, 
+      
+        /// <field name="inquire" type="">Container for functions that test the state of inputs.</field>
+        inquire : {}, 
                 
         supportCheck: function(className, errorMessage) {
             /// <summary>Checks whether this class has been marked as unsupported and throws an 
@@ -69,7 +73,7 @@
     window.atropa = window.atropa || {};
 
     window.atropa.data = {
-        /// <summary></summary>
+        /// <summary>Container for gobal data related to the classes and functions.</summary>
         /// <returns type="atropa.data"/>
                 
     };
@@ -88,7 +92,7 @@
     window.atropa = window.atropa || {};
 
     window.atropa.inquire = {
-        /// <summary></summary>
+        /// <summary>Container for functions that test the state of inputs.</summary>
         /// <returns type="atropa.inquire"/>
                 
         isNull: function(x) {
